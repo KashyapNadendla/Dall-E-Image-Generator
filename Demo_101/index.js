@@ -9,7 +9,6 @@ app.use(cors())
 app.use(express.json())
 
 
-//const OPENAI_API_KEY = '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'
 
 const openai = new OpenAI({
     apiKey: OPENAI_API_KEY,
